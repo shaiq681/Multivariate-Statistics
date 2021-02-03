@@ -2,8 +2,18 @@
 title: "Lab1\nExamining multivariate data"
 author: "Andreas C Charitos [andch552]"
 date: "1/22/2021"
+header-includes:
+ - \usepackage{eso-pic,graphicx,transparent}
 output: pdf_document
 ---
+
+\AddToShipoutPictureFG{
+  \AtPageCenter{% or \AtTextCenter
+    \makebox[0pt]{\rotatebox[origin=c]{45}{%
+      \scalebox{5}{\texttransparent{0.3}{DRAFT}}%
+    }}
+  }
+}
 
 \tableofcontents
 
